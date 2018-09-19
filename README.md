@@ -7,4 +7,6 @@ cmake -G "Visual Studio 15 2017 Win64" -DQt5Widgets_DIR=C:\Qt\Qt5.11.1\5.11.1\ms
 cmake --build . --target package
 ```
 
+*NOTE:* Based on you qt installation and version you need to update commandline option of cmake.
+
 copy generated installer to www folder of you apache installation. Update latest-version and download-url in updates.json copy it to www of apache installation.
